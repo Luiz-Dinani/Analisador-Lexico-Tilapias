@@ -28,3 +28,4 @@ mortalidade
 morte
 morrendo
 preciso
+drop
