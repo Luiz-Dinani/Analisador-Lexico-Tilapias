@@ -126,6 +126,9 @@ detento
 desgraça
 desgraçado
 desgraçados
+desgraca
+desgracado
+desgracados
 difunto
 doida
 doido
