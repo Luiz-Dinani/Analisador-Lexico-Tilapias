@@ -15,10 +15,10 @@ def escreverCsv(dadosCsv):
 
 def upload_s3(nomeArquivo, nomeBucket):
     s3_client = boto3.client(
-        service_name='s3',
-        aws_access_key_id="ASIA3WGSIV3SHHKT4OJ3",
-        aws_secret_access_key="3XxG/FbEt9iOBjGh+QHdfIsxmy3W38XCujGOsiMv",
-        aws_session_token="FwoGZXIvYXdzEMz//////////wEaDCh8fQTVBfQLKpYH4CLEAWs0256cjsgzwGDnNCV0YhsamrS3+nkR08+Vrq0RnIJltFVb2rLaZd2ym3CAhZD5EUy9xH0Zx/R6tdCPVKqFyTjZlDkNGegCx+LL6So5oyw4lIXO0U/duDpoLa2Pv/xgbERAKh7je+yUM/IG8tqKbH5egeXrSuCcZmIUF9OBz38GR6BwEuAn69wGcvXS4WSBXynjhtRvkFT6nH1uJQvECZC3firwweAXRoGzdWv1Z3wSfZuBXuL8M03Jn3FwTzpiIb0c5hko5NG/pgYyLevGYFSwIDY+UwS+F5Oht9kowAbMutuX+ym3zTmANe2EKYkdO4CohRV2/YM5GQ==",
+        service_name="s3",
+        aws_access_key_id="ASIA3WGSIV3SEC44QVPJ",
+        aws_secret_access_key="ikFSUcEPMmLyRxHsIhqF9kgXQZs0EuQXfdeQI9kp",
+        aws_session_token="FwoGZXIvYXdzEC0aDCf457M3mBdcty03zCLEAWDt2Xwh+o8tt5JqZcvFJESTI5gckqjHOfuMwXyRXmuRyU7qpFuwwCdomVW8zMBR85iICeJAQ+FQ0aSUtmiiaOhFyIgCqkcfu3jIlnZHTJmwQTFlgWck5Nms35CwJQBzwFRYg5jO6V6oHBSDRoi9KFkvhiO2iYjLw5b0rlO/wn2qU1rtwhudpRdjYPw2sFb6SsBHz/LtcA0OUohWULHpwYZvGnSV0Z/+YojfBVYeyiHEYpxobBhwtkC4vPN76tp6SSP2/5Mo7/jUpgYyLfCE3IxFt/+RoqOKq1FrUwXOkxQ1h9VxDmWjqYUnW4UF+s0NcojNsaZiJeXZ5w==",
         region_name='us-east-1' # voce pode usar qualquer regiao
     )
     try:
@@ -30,6 +30,6 @@ def upload_s3(nomeArquivo, nomeBucket):
     return True
 
 def ler_arquivo(nomeArquivo):
-    with open("tweets.txt") as arquivo:
-        tweets = arquivo.readlines()
-    return tweets
+    with open(f"{nomeArquivo}") as arquivo:
+        arquivoLido = arquivo.read().splitlines()
+    return arquivoLido

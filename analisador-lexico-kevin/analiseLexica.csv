@@ -1,11 +1,18 @@
-id,QtdBoas,QtdRuins,QtdPalavrões
-1,0,0,0
-2,3,0,0
-3,0,3,0
-4,3,0,0
-5,3,2,0
-6,0,5,0
-7,2,0,0
-8,1,0,0
-9,2,1,0
-10,0,1,1
+Tweet,QtdOfensas,QtdPalavraBoas,QtdPalavrasRuins
+"Monitore a qualidade da água regularmente nos criadouros de alevinos. Garanta níveis adequados de oxigênio, pH, temperatura e ausência de substâncias tóxicas para promover um ambiente saudável e minimizar perdas. #Aquicultura #QualidadeDaÁgua",0,1,0
+"Implantei um sistema de monitoramento ativo para acompanhar o ambiente da minha criação de tilápias. Resultado? Maior crescimento e saúde dos peixes, levando a um aumento nas vendas!",0,4,0
+"Nada é mais frustrante do que ver meus peixes morrendo um após o outro. Investi tempo, dinheiro e dedicação nessa criação, mas parece que estou fadado ao fracasso. Preciso de soluções urgentes!",0,0,3
+"Uma boa nutrição é a chave! Ofereça uma ração balanceada e de qualidade aos alevinos, adequada às suas necessidades nutricionais em cada estágio de desenvolvimento. Alimente-os de maneira regular e evite o desperdício de alimentos. #NutriçãoAquática #AlimentaçãoSaudável",0,3,0
+"Dica importante: Evite o superpovoamento dos tanques de criação. Mantenha uma densidade populacional adequada para garantir espaço suficiente e evitar a competição por alimento, minimizando o estresse e a mortalidade de alevinos. #BemEstarAnimal #ManejoResponsável",0,3,2
+Estou no limite da minha paciência! A alta mortalidade na minha criação de peixes está me deixando desesperado. Preciso encontrar respostas e soluções urgentes.,0,0,5
+"Graças ao monitoramento constante do oxigênio dissolvido e do pH na minha criação de tilápias, posso agir rapidamente caso haja variações.",0,3,0
+"Solução eficiente: Utilize estratégias de desinfecção adequadas para garantir um ambiente livre de patógenos nos criadouros. Desinfete equipamentos, tanques e utensílios regularmente, seguindo as diretrizes e utilizando produtos seguros para os peixes. #HigieneAquática #PrevençãoDeDoenças",0,2,0
+"Dica prática: Ao transportar alevinos, forneça condições ideais para minimizar o estresse. Use embalagens adequadas, mantenha a temperatura estável, forneça oxigenação suficiente e evite movimentos bruscos que possam prejudicar os peixes. #TransporteSeguro #CuidadoNoManuseio",0,2,1
+"Esses peixes desgraçados... só ficam parados sem fazer ABSOLUTAMENTE NADA. Se essas pestes começassem a viver normalmente, eu estaria bem da cabeça",1,0,1
+Notable drop in farmed tilapia sales to US drove down Brazil’s Q1 aquaculture exports,0,0,0
+Exportação de tilápia cresce quase 16.000% em quatro anos no Parana,0,1,0
+Nova edição da Análise Conjuntural do Ipardes aponta bom cenário para tilápia do Paraná,0,1,0
+Tilápia puxa aumento da produção de peixes de cultivo no Brasil,0,1,0
+Exportação de peixes tem crescimento exponencial no Paraná,0,1,0
+"Rise in Consumption of Salmon and Tilapia to drive the Aquaculture Vaccines Market, reaching US$ 913.6 Million by the year 2033 a CAGR of 8.5%",0,1,0
+Tilapaia has expected growth rate (CAGR) of 3.38% during 2023-2028,0,1,0
